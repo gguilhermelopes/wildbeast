@@ -333,4 +333,7 @@ p {
   .imagem-1 {
     grid-row: 4;
   }
+  .caracteristicas {
+    justify-content: flex-start;
+  }
 }
