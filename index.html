@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>document.documentElement.className += ' js'</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -11,7 +12,7 @@
   <title>Wildbeast</title>
 </head>
 
-<body>
+<body class="js-tabcontent">
   <div class="estrutura">
     <header class="header">
       <a href="/" class="logo"><img src="./img/wildbeast.svg" alt="Wildbeast"></a>
@@ -23,17 +24,18 @@
         </ul>
       </nav>
     </header>
-    <nav class="sidenav">
+    <nav class="sidenav js-tabmenu">
       <ul>
-        <li><a href="/"><img src="./img/icones/cervo.svg" alt="Cervo"></a></li>
-        <li><a href="/"><img src="./img/icones/leao.svg" alt="Leão"></a></li>
-        <li><a href="/"><img src="./img/icones/gato.svg" alt="Gato"></a></li>
-        <li><a href="/"><img src="./img/icones/vaca.svg" alt="Vaca"></a></li>
-        <li><a href="/"><img src="./img/icones/ovelha.svg" alt="Ovelha"></a></li>
-        <li><a href="/"><img src="./img/icones/abelha.svg" alt="Abelha"></a></li>
+        <li><img src="./img/icones/leao.svg" alt="Leão"></li>
+        <li><img src="./img/icones/cervo.svg" alt="Cervo"></li>
+        <li><img src="./img/icones/gato.svg" alt="Gato"></li>
+        <li><img src="./img/icones/vaca.svg" alt="Vaca"></li>
+        <li><img src="./img/icones/ovelha.svg" alt="Ovelha"></li>
+        <li><img src="./img/icones/abelha.svg" alt="Abelha"></li>
       </ul>
     </nav>
-    <main class="content">
+
+    <section class="content wolf">
       <div class="titulo">
         <h1>Lobo Cinza</h1>
         <span>da família canis lupus</span>
@@ -45,7 +47,7 @@
         </div>
         <div>
           <span class="numero">13</span>
-          <span class="rotulo">age</span>
+          <span class="rotulo">years</span>
         </div>
       </div>
       <p class="col-wide">
@@ -55,7 +57,7 @@
       <p class="destaque">O lobo, também chamado de lobo-cinzento; nome científico: Canis lupus.</p>
       <img class="imagem-2" src="./img/wolf2.jpg" alt="Lobo">
       <p>O peso e tamanho dos lobos variam muito em todo o mundo, tendendo a aumentar proporcionalmente com a latitude, como previsto pela teoria de Christian Bergmann. Em geral, a altura, medida a partir dos ombros, varia de 60 a 95 centímetros.</p>
-      <p>Os lobos são capazes de percorrer longas distâncias com uma velocidade média de 10 quilômetros por hora e são conhecidos por atingir velocidades próximas a 65 quilômetros por hora durante uma perseguição. Há registro de uma loba-cinzenta realizando saltos de 7 metros ao perseguir suas presas.</p>
+      <p>Os lobos são capazes de percorrer longas distâncias com uma velocidade média de 10 quilômetros por hora e são conhecidos por atingir velocidades próximas a 65 quilômetros por hora durante uma perseguição. </p>
 
       <blockquote class="citacao col-wide">
         <p>“Há algo no uivar do lobo que tira um homem do aqui e agora e o transporta para uma floresta da mente.”</p>
@@ -74,7 +76,221 @@
         <p>O subpelo é espalhado pelo corpo na forma de grandes tufos no final da primavera ou início do verão (com variações anuais). Um lobo, muitas vezes, esfrega-se contra objetos, como pedras e galhos, para induzir a pele a soltar os pelos.</p>
       </div>
       <img class="imagem-3 col-wide" src="./img/wolf3.jpg" alt="Lobo">
-    </main>
+    </section>
+    <section class="content deer">
+      <div class="titulo">
+        <h1>Cervo</h1>
+        <span>da família cervidae</span>
+      </div>
+      <div class="caracteristicas">
+        <div>
+          <span class="numero">115</span>
+          <span class="rotulo">kg</span>
+        </div>
+        <div>
+          <span class="numero">20</span>
+          <span class="rotulo">years</span>
+        </div>
+      </div>
+      <p class="col-wide">
+        Os cervídeos, cervos (latim científico: Cervidae) ou ainda veados (do latim venatu, "caça morta") constituem uma família de animais ungulados artiodáctilos e ruminantes, à qual pertencem animais como a corça, o alce e o caribu.
+      </p>
+      <img class="imagem-1" src="./img/deer1.jpg" alt="Lobo">
+      <p class="destaque">O cervo, também chamado de cervídeo; nome científico: Cervidae.</p>
+      <img class="imagem-2" src="./img/deer2.jpg" alt="Lobo">
+      <p> Os cervídeos estão geograficamente bem distribuídos por todos os continentes exceto Austrália e Antártida. O grupo distingue-se dos outros ruminantes por ter galhadas em vez de cornos. As galhadas são estruturas ossificadas que se desenvolvem todos os anos, presentes geralmente apenas nos machos.</p>
+      <p>Os cervídeos são herbívoros com alimentação específica devido à pouca especialização do seu estômago, que não digere vegetação fibrosa como erva. Assim, os cervídeos alimentam-se principalmente de rebentos, folhas, frutos e líquenes. Têm ainda elevados requerimentos nutricionais de minerais que lhes permitam crescer novas galhadas todos os anos.</p>
+
+      <blockquote class="citacao col-wide">
+        <p>“Penso que um cervo com coragem de enfrentar um leão é mais respeitado do que um exército inteiro de leões.”</p>
+      </blockquote>
+
+      <ul class="atributos">
+        <li>Surgiu: 30mi anos</li>
+        <li>Tipo: Mamífero</li>
+        <li>Idade Média: 18 anos</li>
+        <li>Macho adulto: 80kg</li>
+        <li>Fêmea adulta: 60kg</li>
+        <li>Família: Cervidae</li>
+      </ul>
+      <div class="informacoes">
+        <p>Os cervos são animais de pelagem marrom e lisa, com algumas áreas de coloração branca. Além disso, eles também possuem grandes orelhas e pernas longas. Existem cervos de tamanhos variados. Alguns possuem cerca de 30 cm de altura, como o cervo Pudu.</p>
+        <p>O cervo, assim como os animais que a ele se assemelham, como o gamo, o alce e a gazela, é um símbolo de pureza primordial, de liberdade, de fecundidade e de vida. </p>
+      </div>
+      <img class="imagem-3 col-wide" src="./img/deer3.jpg" alt="Lobo">
+    </section>
+
+    <section class="content cat">
+      <div class="titulo">
+        <h1>Gato</h1>
+        <span>da família felidae</span>
+      </div>
+      <div class="caracteristicas">
+        <div>
+          <span class="numero">6</span>
+          <span class="rotulo">kg</span>
+        </div>
+        <div>
+          <span class="numero">20</span>
+          <span class="rotulo">years</span>
+        </div>
+      </div>
+      <p class="col-wide">
+        O gato (Felis silvestris catus), também conhecido como gato caseiro, gato urbano ou gato doméstico, é um mamífero carnívoro da família dos felídeos, muito popular como animal de estimação.
+      </p>
+      <img class="imagem-1" src="./img/cat1.jpg" alt="Lobo">
+      <p class="destaque">O gato, nome científico: Felis silvestris catus.</p>
+      <img class="imagem-2" src="./img/cat2.jpg" alt="Lobo">
+      <p> Ocupando o topo da cadeia alimentar, é predador natural de diversos animais, como roedores, pássaros, lagartixas e alguns insetos. Segundo pesquisas realizadas por instituições norte-americanas, os gatos consistem no segundo animal de estimação mais popular do mundo, estando numericamente atrás apenas dos peixes de aquário.</p>
+      <p>Existem cerca de 250 raças de gato doméstico, cujo peso variável entre 2,5 a 12 kg coloca a espécie na categoria de animal doméstico de pequeno a médio porte. Assim como ocorre com algumas raças de cães que apresentam esta mesma faixa de peso, o gato doméstico pode viver entre quinze e vinte anos.</p>
+
+      <blockquote class="citacao col-wide">
+        <p>“Se eu prefiro os gatos aos cães é porque não existem gatos policiais.”</p>
+      </blockquote>
+
+      <ul class="atributos">
+        <li>Surgiu: 20mi anos</li>
+        <li>Tipo: Mamífero</li>
+        <li>Idade Média: 18 anos</li>
+        <li>Macho adulto: 6kg</li>
+        <li>Fêmea adulta: 4kg</li>
+        <li>Família: Felidae</li>
+      </ul>
+      <div class="informacoes">
+        <p>Devido à sua personalidade independente, tornou-se um animal de companhia em diversos lares ao redor do mundo, agradando pessoas dos mais variados estilos de vida. </p>
+        <p>Na cultura humana, figura da mitologia às superstições, passando por personagens de desenhos animados, tiras de jornais, filmes e contos de fadas. </p>
+      </div>
+      <img class="imagem-3 col-wide" src="./img/cat3.jpg" alt="Lobo">
+    </section>
+
+    <section class="content cow">
+      <div class="titulo">
+        <h1>Vaca</h1>
+        <span>da família bovidae</span>
+      </div>
+      <div class="caracteristicas">
+        <div>
+          <span class="numero">720</span>
+          <span class="rotulo">kg</span>
+        </div>
+        <div>
+          <span class="numero">20</span>
+          <span class="rotulo">years</span>
+        </div>
+      </div>
+      <p class="col-wide">
+        Gado-bovino-doméstico (nome científico: Bos taurus) é uma espécie de bovino do gênero Bos e da ordem Artiodactyla. É um mamífero ungulado e apresenta dois dígitos (dedos) em cada membro.
+      </p>
+      <img class="imagem-1" src="./img/cow1.jpg" alt="Lobo">
+      <p class="destaque">A vaca, nome científico: Bos taurus.</p>
+      <img class="imagem-2" src="./img/cow2.jpg" alt="Lobo">
+      <p> O macho da espécie recebe o nome de boi, ou touro, enquanto que a fêmea é conhecida por vaca e o animal jovem por bezerro, e depois novilho.A espécie é um ruminante, ou seja, regurgita o alimento para a boca após sua ingestão, onde é novamente mastigado e deglutido.</p>
+      <p>Essa espécie foi domesticada pelo homem e é utilizada em larga escala em muitas atividades como a produção de carne e de leite, representando grande importância para a economia de muitos países.</p>
+
+      <blockquote class="citacao col-wide">
+        <p>“De onde é que recebi nutrição para a minha escrita? Ninguém se lembra do nome da vaca que lhe forneceu cada gota de leite que bebeu.”</p>
+      </blockquote>
+
+      <ul class="atributos">
+        <li>Surgiu: 20mi anos</li>
+        <li>Tipo: Mamífero</li>
+        <li>Idade Média: 18 anos</li>
+        <li>Macho adulto: 1150kg</li>
+        <li>Fêmea adulta: 720kg</li>
+        <li>Família: Bovidae</li>
+      </ul>
+      <div class="informacoes">
+        <p>As vacas domesticadas são altamente gregárias, residindo em rebanhos em ambientes agrícolas naturais e comerciais. Dentro desses rebanhos, as interações em distâncias curtas e longas são mediadas por vocalizações. As vacas mantêm vozes individuais em uma variedade de situações emocionais. </p>
+        <p>Isso os ajuda a manter contato com o rebanho e expressar excitação, excitação, engajamento ou angústia. </p>
+      </div>
+      <img class="imagem-3 col-wide" src="./img/cow3.jpg" alt="Lobo">
+    </section>
+
+    <section class="content sheep">
+      <div class="titulo">
+        <h1>Ovelha</h1>
+        <span>da família caprinae</span>
+      </div>
+      <div class="caracteristicas">
+        <div>
+          <span class="numero">120</span>
+          <span class="rotulo">kg</span>
+        </div>
+        <div>
+          <span class="numero">12</span>
+          <span class="rotulo">years</span>
+        </div>
+      </div>
+      <p class="col-wide">
+        A ovelha (Ovis aries) é um mamífero ruminante bovídeo da sub-família Caprinae. O carneiro é o macho da ovelha e os juvenis são cordeiros, anhos ou borregos.
+      </p>
+      <img class="imagem-1" src="./img/sheep1.jpg" alt="Lobo">
+      <p class="destaque">A ovelha, nome científico: Ovis aries.</p>
+      <img class="imagem-2" src="./img/sheep2.jpg" alt="Lobo">
+      <p> É um animal de enorme importância econômica como fonte de carne, laticínios, lã e couro. Criado em cativeiro em todos os continentes, a ovelha foi domesticada na Idade do Bronze a partir do Urial (Ovis orientalis), que vive actualmente nas montanhas da Turquia e Iraque, ou de outras espécies da ovinos da região.</p>
+      <p>As ovelhas são, quase sempre, criadas em rebanhos. O manejo requer cuidados, seja pelo fato de se tratar de um rebanho grande, ou por serem animais sensíveis.</p>
+
+      <blockquote class="citacao col-wide">
+        <p>“Não será por uma simples pele de cordeiro que um lobo poderá viver entre as ovelhas.”</p>
+      </blockquote>
+
+      <ul class="atributos">
+        <li>Surgiu: 11000 anos</li>
+        <li>Tipo: Mamífero</li>
+        <li>Idade Média: 10 anos</li>
+        <li>Macho adulto: 150kg</li>
+        <li>Fêmea adulta: 110kg</li>
+        <li>Família: Caprinae</li>
+      </ul>
+      <div class="informacoes">
+        <p>Basicamente, a ovelha (fêmea) é um animal dócil, e sem nenhum mecanismo natural de defesa; o que deve ter influenciado para, na cultura popular, estar associada à ideia de inocência. </p>
+        <p>No caso dos carneiros (machos) é necessária alguma precaução com alguns animais mais agressivos, pois estes podem usar as hastes de forma perigosa. As ovelhas não tem os sentidos aguçados como outros animais. </p>
+      </div>
+      <img class="imagem-3 col-wide" src="./img/sheep3.jpg" alt="Lobo">
+    </section>
+
+    <section class="content bee">
+      <div class="titulo">
+        <h1>Abelha</h1>
+        <span>da família apoidea</span>
+      </div>
+      <div class="caracteristicas">
+        <div>
+          <span class="numero">150</span>
+          <span class="rotulo">mg</span>
+        </div>
+        <div>
+          <span class="numero">45</span>
+          <span class="rotulo">days</span>
+        </div>
+      </div>
+      <p class="col-wide">
+        Abelhas são insetos voadores, conhecidos pelo seu importante papel na polinização. Pertencem à ordem Hymenoptera, da superfamília Apoidea, subgrupo Anthophila, e são aparentados das vespas e formigas.
+      </p>
+      <img class="imagem-1" src="./img/bee1.jpg" alt="Lobo">
+      <p class="destaque">A abelha, nome científico: Anthophila.</p>
+      <img class="imagem-2" src="./img/bee2.jpg" alt="Lobo">
+      <p> O representante mais conhecido é a Apis mellifera, oriunda do Velho Mundo, criada em larga escala para a produção de mel, própolis, geleia real e veneno. As espécies de abelhas nativas das Américas e Oceania são conhecidas como abelhas sem ferrão (ASF) e possuem ferrão atrofiado, sendo, portanto, menos agressivas.</p>
+      <p>As abelhas com ferrão encontradas comumente no Brasil são espécies híbridas de abelhas europeias e africanas, criadas para maior produtividade e resistência. As abelhas sem ferrão encontradas comumente no Brasil são espécies do gênero Meliponini e a mais conhecida é a Jataí (Tetragonisca angustula).</p>
+
+      <blockquote class="citacao col-wide">
+        <p>“As abelhas e as vespas sugam as mesmas flores, mas não sabem encontrar nelas o mesmo mel.”</p>
+      </blockquote>
+
+      <ul class="atributos">
+        <li>Surgiu: 480mi anos</li>
+        <li>Tipo: Inseto</li>
+        <li>Idade Média: 45 dias</li>
+        <li>Macho adulto: 100mg</li>
+        <li>Fêmea adulta: 150mg</li>
+        <li>Família: Apoidea</li>
+      </ul>
+      <div class="informacoes">
+        <p>As abelhas variam em tamanho desde minúsculas espécies de abelhas sem ferrão cujas obreiras são inferiores a 2 milímetros de comprimento, como a Perdita Minima, até à Chalicodoma Plutão, a maior espécie de abelha cortadeira, cujas fêmeas podem atingir um comprimento de 39 milímetros. </p>
+        <p>As abelhas mais comuns no hemisfério norte são as Halictidae; são pequenas e muitas vezes confundidas com vespas ou moscas. </p>
+      </div>
+      <img class="imagem-3 col-wide" src="./img/bee3.jpg" alt="Lobo">
+    </section>
 
     <aside class="anuncios">
       <div class="anuncio-item">
@@ -88,6 +304,7 @@
       <p>Wildbeast ©<br>Alguns direitos reservados.</p>
     </footer>
   </div>
+  <script src="./script.js"></script>
 </body>
 
 </html>
